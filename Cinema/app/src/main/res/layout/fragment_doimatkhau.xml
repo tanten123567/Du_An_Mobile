@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shape_background"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="ĐỔI MẬT KHẨU"
+        android:textColor="#ECD1AA"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:padding="10dp"
+        android:background="@drawable/shape_login_panel">
+
+        <EditText
+            android:id="@+id/edtOldPass"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:fontFamily="monospace"
+            android:hint="Nhập mật khẩu cũ"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/edtNewPass"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:fontFamily="monospace"
+            android:hint="Nhập mật khẩu mới" />
+
+        <EditText
+            android:id="@+id/edtReNewPass"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:fontFamily="monospace"
+            android:hint="Nhập mật lại khẩu mới" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCapNhat"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/teal_200"
+        android:fontFamily="@font/roboto_black"
+        android:hint="CẬP NHẬT" />
+</LinearLayout>

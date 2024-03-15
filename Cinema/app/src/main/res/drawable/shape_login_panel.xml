@@ -1,0 +1,9 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@mipmap/shadow_login"/>
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <corners android:radius="20dp"/>
+            <solid android:color="#CBFFFFFF"/>
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,12 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@mipmap/shadow_left"/>
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <corners android:topRightRadius="40dp" android:bottomRightRadius="40dp"/>
+            <gradient android:angle="225"
+                android:startColor="#1C0C5B"
+                android:centerColor="#3D2C8D"
+                android:endColor="#916BBF"/>
+        </shape>
+    </item>
+</layer-list>
